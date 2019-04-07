@@ -1,4 +1,4 @@
-package Animals;
+package ru.Cliniks.Clinika.Animals;
 
 public class Dog extends Pet {
     public Dog(String name, String disease) {

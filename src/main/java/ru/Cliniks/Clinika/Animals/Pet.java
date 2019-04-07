@@ -1,4 +1,5 @@
-package Animals;
+package ru.Cliniks.Clinika.Animals;
+
 
 public class Pet implements Animal {
 

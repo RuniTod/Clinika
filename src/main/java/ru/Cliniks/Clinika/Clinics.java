@@ -1,5 +1,9 @@
-import Animals.Pet;
-import Human.Pacient;
+package ru.Cliniks.Clinika;
+
+
+import ru.Cliniks.Clinika.Animals.Pet;
+import ru.Cliniks.Clinika.Choose;
+import ru.Cliniks.Clinika.Human.Pacient;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -14,17 +18,17 @@ public class Clinics {
         this.size = size;
     }
 
-    protected Integer getLength(){
+    public Integer getLength(){
         return pacients.size();
     }
 
-    protected void add(Pacient pacient) throws Exception {
+    public void add(Pacient pacient) throws Exception {
         if (this.pacients.size() < this.size) {
             this.pacients.put(this.pacients.size()+1,pacient);
         } else  throw new Exception("Мест в клинике нет!");
 
     };
-    protected void delete(Integer id,Choose choose){
+    public void delete(Integer id, Choose choose){
         if (this.pacients.size() > 0){
             switch (choose){
                 case PACIENT:
@@ -39,11 +43,11 @@ public class Clinics {
         }
     }
 
-    protected HashMap<Integer,Pacient> getPacients(){
+    public HashMap<Integer,Pacient> getPacients(){
         return this.pacients;
     }
 
-    protected List<Pacient> findForPet(String petName){
+    public List<Pacient> findForPet(String petName){
         List<Pacient> listPacients = new ArrayList<>();
         for (Pacient pacient:this.pacients.values()) {
             if (pacient.getPet() != null){

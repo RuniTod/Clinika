@@ -1,6 +1,11 @@
-import Animals.Cat;
-import Animals.Dog;
-import Human.Pacient;
+package ru.Cliniks.Clinika;
+
+import ru.Cliniks.Clinika.Animals.Cat;
+import ru.Cliniks.Clinika.Animals.Dog;
+import ru.Cliniks.Clinika.Choose;
+import ru.Cliniks.Clinika.Clinics;
+import ru.Cliniks.Clinika.Human.Pacient;
+import ru.Cliniks.Clinika.Human.Sex;
 
 public class Main {
 
@@ -30,7 +35,7 @@ public class Main {
         clinics.add(new Pacient(Sex.WOMEN, 35,"Sara",new Cat("POPY","BURBON")));
 
         System.out.println("Количесство: " + clinics.getLength());
-        clinics.delete(1,Choose.PET);
+        clinics.delete(1, Choose.PET);
         clinics.delete(1,Choose.PACIENT);
         System.out.println("------Найденные пациенты start------");
         for (Pacient pacient:clinics.findForPet("POPY")) {
