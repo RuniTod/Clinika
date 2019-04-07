@@ -1,3 +1,5 @@
+package Animals;
+
 public class Pet implements Animal {
 
     private String name;

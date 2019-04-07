@@ -1,3 +1,6 @@
+import Animals.Pet;
+import Human.Pacient;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -5,7 +8,7 @@ import java.util.List;
 public class Clinics {
 
     private Integer size;
-    private HashMap<Integer,Pacient> pacients = new HashMap<>();
+    private HashMap<Integer, Pacient> pacients = new HashMap<>();
 
     public Clinics(Integer size) {
         this.size = size;

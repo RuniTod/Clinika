@@ -1,3 +1,7 @@
+package Human;
+
+import Animals.Pet;
+
 public class Pacient {
 
     private Sex sex;

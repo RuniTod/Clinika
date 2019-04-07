@@ -1,3 +1,5 @@
+package Animals;
+
 public class Cat extends Pet {
     public Cat(String name, String disease) {
         super(name, disease);

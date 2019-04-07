@@ -1,3 +1,7 @@
+import Animals.Cat;
+import Animals.Dog;
+import Human.Pacient;
+
 public class Main {
 
 
