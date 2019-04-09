@@ -1,7 +1,6 @@
-package ru.Cliniks.Clinika.Human;
+package Human;
 
-import ru.Cliniks.Clinika.*;
-import ru.Cliniks.Clinika.Animals.Pet;
+import Animals.Pet;
 
 public class Pacient {
 

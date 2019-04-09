@@ -1,11 +1,9 @@
 package ru.Cliniks.Clinika;
 
-import ru.Cliniks.Clinika.Animals.Cat;
-import ru.Cliniks.Clinika.Animals.Dog;
-import ru.Cliniks.Clinika.Choose;
-import ru.Cliniks.Clinika.Clinics;
-import ru.Cliniks.Clinika.Human.Pacient;
-import ru.Cliniks.Clinika.Human.Sex;
+import Animals.Cat;
+import Animals.Dog;
+import Human.Pacient;
+import Human.Sex;
 
 public class Main {
 

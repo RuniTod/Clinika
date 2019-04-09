@@ -1,4 +1,4 @@
-package ru.Cliniks.Clinika.Animals;
+package Animals;
 
 public interface Animal {
     String Say();

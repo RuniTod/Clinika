@@ -1,5 +1,7 @@
-package ru.Cliniks.Clinika.Animals;
+package Animals;
 
+
+import Animals.Animal;
 
 public class Pet implements Animal {
 

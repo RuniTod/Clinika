@@ -1,9 +1,9 @@
 package ru.Cliniks.Clinika;
 
 
-import ru.Cliniks.Clinika.Animals.Pet;
-import ru.Cliniks.Clinika.Choose;
-import ru.Cliniks.Clinika.Human.Pacient;
+import Animals.Pet;
+import Excepticon.UserExcepticon;
+import Human.Pacient;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -22,13 +22,13 @@ public class Clinics {
         return pacients.size();
     }
 
-    public void add(Pacient pacient) throws Exception {
+    public void add(Pacient pacient) throws UserExcepticon {
         if (this.pacients.size() < this.size) {
             this.pacients.put(this.pacients.size()+1,pacient);
-        } else  throw new Exception("Мест в клинике нет!");
+        } else  throw new UserExcepticon("Мест в клинике нет!");
 
     };
-    public void delete(Integer id, Choose choose){
+    public void delete(Integer id, Choose choose) throws UserExcepticon {
         if (this.pacients.size() > 0){
             switch (choose){
                 case PACIENT:
@@ -38,7 +38,7 @@ public class Clinics {
                     this.pacients.get(id).setPet(null);
                     break;
                 default:
-                    throw new IllegalStateException("Неизвестное значение: " + choose);
+                    throw new UserExcepticon("Неизвестное значение: " + choose);
             }
         }
     }

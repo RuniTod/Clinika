@@ -1,4 +1,4 @@
-package ru.Cliniks.Clinika.Human;
+package Human;
 
 public enum Sex {
     MEN,
