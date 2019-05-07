@@ -43,6 +43,14 @@ public class Clinics {
         }
     }
 
+    public void editPacients(Integer id,Pacient pacient){
+        if (this.pacients.size()> 0){
+            if (this.pacients.containsKey(id)){
+                this.pacients.replace(id,pacient);
+            }
+        }
+    }
+
     public HashMap<Integer,Pacient> getPacients(){
         return this.pacients;
     }
@@ -58,6 +66,19 @@ public class Clinics {
         }
         return listPacients;
     }
+    public HashMap<Integer,Pacient> findForPetID(String petName){
+        HashMap<Integer,Pacient> listPacients = new HashMap<>();
+        for (Pacient pacient:this.pacients.values()) {
+            if (pacient.getPet() != null){
+                if (pacient.getPet().getName() == petName){
+                    listPacients.put(pacient.getId(),pacient);
+                }
+            }
+        }
+        return listPacients;
+    }
+
+
 
     protected List<Pacient> findForPacient(String pacientName){
         List<Pacient> listPacients = null;

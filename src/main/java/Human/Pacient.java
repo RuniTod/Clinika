@@ -8,6 +8,23 @@ public class Pacient {
     private Integer Age;
     private String Name;
     private Pet pet;
+    private Integer id;
+
+    public Pacient(Sex sex, Integer age, String name, Pet pet, Integer id) {
+        this.sex = sex;
+        Age = age;
+        Name = name;
+        this.pet = pet;
+        this.id = id;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public Pacient(Sex sex, Integer age, String name, Pet pet) {
         this.sex = sex;

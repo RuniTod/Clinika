@@ -1,11 +1,10 @@
-ru\Cliniks\Clinika\Human\Sex.class
-ru\Cliniks\Clinika\Animals\Pet.class
+WindowsMiner\GenerateBoard.class
+WindowsMiner\Cell.class
 ru\Cliniks\Clinika\Clinics.class
-ru\Cliniks\Clinika\Animals\Animal.class
-ru\Cliniks\Clinika\Animals\Cat.class
-ru\Cliniks\Clinika\Choose.class
+WindowsMiner\Board.class
 ru\Cliniks\Clinika\Main.class
-ru\Cliniks\Clinika\Human\Pacient.class
+WindowsMiner\UserAction.class
+WindowsMiner\Logic.class
+ru\Cliniks\Clinika\Choose.class
 Human\Human.class
-ru\Cliniks\Clinika\Animals\Dog.class
 ru\Cliniks\Clinika\Clinics$1.class
