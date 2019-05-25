@@ -17,12 +17,12 @@ public class ClinicsTest {
         assertEquals((Integer) 1,clinics.getLength());
     }
 
-
     @Test
     public void delete() throws Exception {
         Clinics clinics = new Clinics(5);
         clinics.add(new Pacient(Sex.MEN, 21,"Peter", new Dog("MANY","DEBIL")));
         clinics.delete(1,Choose.PACIENT);
         assertEquals((Integer) 0,clinics.getLength());
+
     }
 }
