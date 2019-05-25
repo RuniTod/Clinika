@@ -14,6 +14,20 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/MinerOpenGL/SaperLogic.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/MinerOpenGL/UserAction.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/MinerOpenGL/logic/ProccesingLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MinerOpenGL/BaseAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MinerOpenGL/Board.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MinerOpenGL/Cell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MinerOpenGL/GUI/GUIAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MinerOpenGL/GUI/GUIBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MinerOpenGL/GUI/GUICell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MinerOpenGL/GenerateBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MinerOpenGL/Main$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MinerOpenGL/Main$1$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MinerOpenGL/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MinerOpenGL/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MinerOpenGL/SaperLogic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MinerOpenGL/UserAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MinerOpenGL/logic/ProccesingLogic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cliniks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cliniks.iml" afterDir="false" />
@@ -145,8 +159,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MinerOpenGL/GUI/GUIAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="289">
+              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -500,10 +514,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -512,7 +526,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25785482" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25785482" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -888,8 +902,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MinerOpenGL/GUI/GUIAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="289">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
